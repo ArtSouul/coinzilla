@@ -1,0 +1,177 @@
+h1, h2, h3, h4, h5, h6 {
+    font-size: 20px;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+body a, button {
+    color: #fff;
+    transition: all ease 0.5s;
+}
+
+.test {
+    width: 20px;
+    height: 500px;
+    background: orangered;
+}
+
+.site-footer {
+    background: #182740;
+    color: #fff;
+}
+
+.site-footer a {
+    color: #fff;
+}
+
+input[type="text"].my-input {
+    background: #fff;
+    padding: 0 5px;
+    border-bottom: none;
+    color: #222;
+    box-sizing: border-box;
+}
+input[type="text"].my-input:focus {
+    border-bottom: none;
+    box-shadow: none;
+}
+
+.go {
+    background: orange;
+    font-weight: bold;
+    border: none;
+    position: absolute;
+    right: 3px;
+    top: 5px;
+    padding: 6px;
+}
+
+div.input {
+    position: relative;
+}
+.my-ads {
+    min-height: 190px;
+    background: #0D3F96;
+}
+.zilla {
+    height: 190px;
+    background: url(../images/coinzilla-join-us.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.footer-ablock {
+
+}
+
+.main-art h2 {
+    margin-bottom: 5px;
+}
+
+.main-art p {
+    margin: 3px 0;
+}
+/*------------------------------------------utp-start----------------------------------------*/
+.utp {
+    background-color: #182740;
+    padding: 40px 0;
+}
+.hello-zilla {
+    background-image: url(../images/coinzilla-hello.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 2% 50%;
+}
+.hello-zilla p:first-child {
+    color: #5f6e87;
+}
+.hello-zilla a {
+    color: #5f6e87;
+}
+.hello-zilla a:first-child {
+    color: #f7931a;
+}
+.hello-zilla a:nth-child(2):hover {
+    color: #91a0b9;
+}
+.hello-zilla h2 {
+    font-size: 42px;
+    font-weight: 300;
+}
+.hello-zilla button {
+    background-color: #f7931a;
+    padding: 15px 60px;
+    font-weight: 300;
+    font-size: 22px;
+    border: none;
+    margin-top: 18px;
+}
+.hello-zilla button:hover {
+    background-color: #e37f06;
+}
+
+.mb100 .block-header {
+    background-color: #0d3f96;
+    
+}
+.mb100 .block-header a {
+    font-size: 42px;
+    font-weight: 300;
+    color: #5578b5;
+}
+.mb100 .block-header a:hover {
+    color: #fff;
+    opacity: .7;
+}
+
+
+.my-utp {
+    padding: 30px 0;
+}
+
+.mb100{
+    margin-bottom: -118px;
+}
+
+/*-------------------------------------------------header-start---------------------------------------------*/
+header {
+    background-color: #182740;
+    padding-top: 20px;
+    color: #fff;
+}
+header a:hover, header button:hover {
+    color: #f7931a;
+} 
+
+header .header-right {
+    color: #fff;
+}
+header .header-right button {
+    border: 1px solid #f7931a;
+    background-color: #182740;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+header .header-left .main-nav {
+    margin-top: 4px;
+}
+.logo {
+    width: 115px;
+}
+
+.main-nav li {
+    float: left;
+    padding-left: 0;
+    padding-right: 30px;
+
+}
+.main-nav {
+    margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .hello-zilla {
+        background-image: none;
+    }
+}
